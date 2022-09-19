@@ -1,6 +1,7 @@
 import 'color_test.dart';
 import 'datetime_test.dart';
 import 'directory_test.dart';
+import 'duration_test.dart';
 import 'file_test.dart';
 
 void main() {
@@ -8,4 +9,5 @@ void main() {
   testDateTime();
   testDirectory();
   testFile();
+  testDuration();
 }
