@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Initial release. Supports convertors for `Color`, `DateTime`, `Directory`, `File` & `Duration`.
