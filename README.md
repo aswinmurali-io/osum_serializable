@@ -15,7 +15,13 @@ The goal is to serialize almost everything you ever need! `json_serializable` is
 |`Duration`|✅|
 |`Locale` |✅|
 
+
 ## How to use?
+
+|Code|Json|
+|----|----|
+|    |    |
+
 
 ```dart
 // imports ...

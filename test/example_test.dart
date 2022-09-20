@@ -13,10 +13,16 @@ void testExample() {
       const Color(0x000000FF),
       Duration.zero,
       Colors.amber,
+      const Locale('fr'),
+      Size.zero,
+      Icons.dangerous,
     );
 
     // ignore: avoid_print
     print(eg.toJson());
+
+    // Get Json
+    // File("test.json").writeAsStringSync(jsonEncode(eg.toJson()));
   });
 }
 

@@ -22,3 +22,6 @@ doc/api/
 
 # Generated dart files
 *.g.dart
+
+# Test json file
+test.json

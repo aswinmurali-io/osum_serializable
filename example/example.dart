@@ -1,3 +1,5 @@
+// ignore_for_file: require_trailing_commas
+
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -8,15 +10,12 @@ part 'example.g.dart';
 
 @JsonSerializable()
 class Example {
-  const Example(
-    this.directory,
-    this.file,
-    this.color,
-    this.duration,
-    this.materialColor,
-  );
+  const Example(this.directory, this.file, this.color, this.duration,
+      this.materialColor, this.locale, this.size, this.iconData);
 
+  // Json methods.
   factory Example.fromJson(Json json) => _$ExampleFromJson(json);
+  Json toJson() => _$ExampleToJson(this);
 
   @DirectoryConverter() // <- Convertors provided by osum_serializable!
   final Directory directory;
@@ -33,7 +32,14 @@ class Example {
   @DurationConverter()
   final Duration duration;
 
-  Json toJson() => _$ExampleToJson(this);
+  @SizeConverter()
+  final Size size;
+
+  @LocaleConverter()
+  final Locale locale;
+
+  @IconDataConverter()
+  final IconData iconData;
 }
 
 void main() {
@@ -43,6 +49,9 @@ void main() {
     const Color(0x000000FF),
     Duration.zero,
     Colors.amber,
+    const Locale('fr'),
+    Size.zero,
+    Icons.abc,
   );
 
   // ignore: avoid_print
