@@ -20,7 +20,9 @@ class _Serializable {
 void testOffset() {
   const value = Offset(10, 10);
   // double data type because Offset has `Offset(double, double)` constructor.
-  const json = {'value': [10.0, 10.0]};
+  const json = {
+    'value': [10.0, 10.0]
+  };
 
   const serializable = _Serializable(value);
 
