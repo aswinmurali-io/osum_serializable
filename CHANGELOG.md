@@ -1,6 +1,6 @@
 ## 0.0.2
 
-- Added example. Minor fixes
+- Added example & minor fixes.
 
 ## 0.0.1
 
