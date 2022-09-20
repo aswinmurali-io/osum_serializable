@@ -1,5 +1,5 @@
 name: osum_serializable
-description: Serialize almost everything you ever need! Supports serializing `Color`, `DateTime`, `Directory`, `File`, `Duration`, and many more.
+description: Serialize almost everything you ever need! Supports serializing Color, DateTime, Directory, File, Duration, and many more.
 version: 0.0.2
 homepage: https://github.com/aswinmurali-io/osum_serializable
 

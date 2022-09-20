@@ -6,7 +6,7 @@ The goal is to serialize almost everything you ever need! `json_serializable` is
 
 ## Supports
 
-|Types|Support|
+|Type|Support|
 |---|---|
 |`Color`|✅|
 |`DateTime`|✅|
