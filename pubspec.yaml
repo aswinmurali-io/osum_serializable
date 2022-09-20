@@ -1,6 +1,6 @@
 name: osum_serializable
 description: Serialize almost everything you ever need! Supports serializing MaterialColor, Color, DateTime, Directory, File, Offset, Duration, and many more.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/aswinmurali-io/osum_serializable
 
 environment:
