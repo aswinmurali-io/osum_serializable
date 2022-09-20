@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Added `Size`, `Locale` & `IconData` support.
+
 ## 0.0.3
 
 - Added `Offset` & `MaterialColor` support.

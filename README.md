@@ -4,17 +4,16 @@
 
 The goal is to serialize almost everything you ever need! `json_serializable` is an amazing package to serialize classes but cannot serialize complex types.
 
-## Supports
+## Supported types
 
-|Type|Support|
-|---|---|
-|`Color`|✅|
-|`DateTime`|✅|
-|`Directory`|✅|
-|`File`|✅|
+|Type|Support|Type|Support|
+|---|---|---|---|
+|`Color`|✅|`MaterialColor`|✅|
+|`Offset`|✅|`Size`|✅|
+|`Directory`|✅|`File`|✅|
+|`DateTime`|✅|`IconData`|✅|
 |`Duration`|✅|
-|`Offset`|✅|
-|`MaterialColor`|✅|
+|`Locale` |✅|
 
 ## How to use?
 
