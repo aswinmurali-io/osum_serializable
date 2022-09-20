@@ -4,7 +4,10 @@ import 'directory_test.dart';
 import 'duration_test.dart';
 import 'example_test.dart';
 import 'file_test.dart';
+import 'icondata_test.dart';
+import 'locale_test.dart';
 import 'material_color_test.dart';
+import 'size_test.dart';
 
 void main() {
   testColor();
@@ -14,4 +17,7 @@ void main() {
   testDuration();
   testExample();
   testMaterialColor();
+  testLocale();
+  testSize();
+  testIconData();
 }
