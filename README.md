@@ -24,18 +24,24 @@ part 'test.g.dart';
 
 @JsonSerializable()
 class Example {
-  const Example(this.directory, this.file, this.color);
+  const Example(this.directory, this.file, this.color, this.duration, this.materialColor);
 
   factory Example.fromJson(Json json) => _$ExampleFromJson(json);
 
-  @DirectoryConverter()  // <- Converters provided by osum_serializable!
+  @DirectoryConverter() // <- Convertors provided by osum_serializable!
   final Directory directory;
+
+  @MaterialColorConverter()
+  final MaterialColor materialColor;
 
   @FileConverter()
   final File file;
 
   @ColorConverter()
   final Color color;
+
+  @DurationConverter()
+  final Duration duration;
 
   Json toJson() => _$ExampleToJson(this);
 }

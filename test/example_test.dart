@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'dart:ui';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../example/example.dart';
@@ -12,6 +12,7 @@ void testExample() {
       File("test.txt"),
       const Color(0x000000FF),
       Duration.zero,
+      Colors.amber,
     );
 
     // ignore: avoid_print

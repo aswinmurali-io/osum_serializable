@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'dart:ui';
 
+import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:osum_serializable/osum_serializable.dart';
 
@@ -8,7 +8,13 @@ part 'example.g.dart';
 
 @JsonSerializable()
 class Example {
-  const Example(this.directory, this.file, this.color, this.duration);
+  const Example(
+    this.directory,
+    this.file,
+    this.color,
+    this.duration,
+    this.materialColor,
+  );
 
   factory Example.fromJson(Json json) => _$ExampleFromJson(json);
 
@@ -20,6 +26,9 @@ class Example {
 
   @ColorConverter()
   final Color color;
+
+  @MaterialColorConverter()
+  final MaterialColor materialColor;
 
   @DurationConverter()
   final Duration duration;
@@ -33,6 +42,7 @@ void main() {
     File("test.txt"),
     const Color(0x000000FF),
     Duration.zero,
+    Colors.amber,
   );
 
   // ignore: avoid_print
