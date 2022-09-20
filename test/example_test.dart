@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import '../example/example.dart';
 
-void main() {
+void testExample() {
   test('Checking example to json conversion.', () {
     final eg = Example(
       Directory.current,
@@ -17,3 +17,5 @@ void main() {
     print(eg.toJson());
   });
 }
+
+void main() => testExample();
