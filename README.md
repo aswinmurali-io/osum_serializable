@@ -20,8 +20,7 @@ The goal is to serialize almost everything you ever need! `json_serializable` is
 
 |Code|Json|
 |----|----|
-|    |    |
-
+| <img width="350" src="https://user-images.githubusercontent.com/47299190/191183909-945166ce-ebd8-475c-8983-bbfb4a9377f6.png"/> | <img width="250" src="https://user-images.githubusercontent.com/47299190/191183957-be602b49-187a-4064-9578-d3fdd0cd5c50.png"/> |
 
 ```dart
 // imports ...
