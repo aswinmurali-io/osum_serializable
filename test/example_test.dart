@@ -14,6 +14,7 @@ void testExample() {
       Duration.zero,
     );
 
+    // ignore: avoid_print
     print(eg.toJson());
   });
 }

@@ -35,5 +35,6 @@ void main() {
     Duration.zero,
   );
 
+  // ignore: avoid_print
   print(eg.toJson());
 }
