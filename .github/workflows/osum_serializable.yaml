@@ -28,7 +28,7 @@ jobs:
       #   run: flutter analyze
 
       - name: Build code
-      - run: flutter pub run build_runner build
+        run: flutter pub run build_runner build
 
       - name: Run tests
         run: flutter test
