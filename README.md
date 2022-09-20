@@ -1,6 +1,6 @@
 # osum_serializable
 
-[![.github/workflows/main.yaml](https://github.com/aswinmurali-io/osum_serializable/actions/workflows/main.yaml/badge.svg)](https://github.com/aswinmurali-io/osum_serializable/actions/workflows/main.yaml)
+[![osum_serializable](https://github.com/aswinmurali-io/osum_serializable/actions/workflows/osum_serializable.yaml/badge.svg)](https://github.com/aswinmurali-io/osum_serializable/actions/workflows/osum_serializable.yaml)
 
 The goal is to serialize almost everything you ever need! `json_serializable` is an amazing package to serialize classes but cannot serialize complex types. This package supports serializing `Color`, `DateTime`, `Directory`, `File`, `Duration`, and many more.
 
