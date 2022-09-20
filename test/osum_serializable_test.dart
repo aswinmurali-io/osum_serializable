@@ -4,6 +4,7 @@ import 'directory_test.dart';
 import 'duration_test.dart';
 import 'example_test.dart';
 import 'file_test.dart';
+import 'material_color_test.dart';
 
 void main() {
   testColor();
@@ -12,4 +13,5 @@ void main() {
   testFile();
   testDuration();
   testExample();
+  testMaterialColor();
 }
