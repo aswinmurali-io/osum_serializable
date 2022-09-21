@@ -8,6 +8,7 @@ import 'icondata_test.dart';
 import 'locale_test.dart';
 import 'material_color_test.dart';
 import 'size_test.dart';
+import 'uuid_test.dart';
 
 void main() {
   testColor();
@@ -20,4 +21,5 @@ void main() {
   testLocale();
   testSize();
   testIconData();
+  testUuidValue();
 }
