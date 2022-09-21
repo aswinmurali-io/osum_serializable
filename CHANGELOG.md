@@ -1,3 +1,7 @@
+## 0.0.5
+
+- Added `UuidValue` support.
+
 ## 0.0.4
 
 - Added `Size`, `Locale` & `IconData` support.

@@ -12,7 +12,7 @@ The goal is to serialize almost everything you ever need! `json_serializable` is
 |`Offset`|✅|`Size`|✅|
 |`Directory`|✅|`File`|✅|
 |`DateTime`|✅|`IconData`|✅|
-|`Duration`|✅|
+|`Duration`|✅|`UuidValue`|✅|
 |`Locale` |✅|
 
 ## How it works
