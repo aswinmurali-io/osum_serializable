@@ -10,6 +10,7 @@ export 'locale.dart';
 export 'material_color.dart';
 export 'offset.dart';
 export 'size.dart';
+export 'uuid.dart';
 
 /// Json data type.
 typedef Json = Map<String, dynamic>;
